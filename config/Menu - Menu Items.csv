@@ -1,0 +1,228 @@
+Title,Price,Path,Ingredient,Ingredient Exists,Quantity
+Big Mac,4.2,Burgers -> Beef,,,
+,,,Big Mac Bun,TRUE,1
+,,,Beef Patty,TRUE,1
+,,,Big Mac Sauce,TRUE,1
+,,,Onion,TRUE,1
+,,,Lettuce,TRUE,1
+,,,Pickle,TRUE,1
+,,,Cheese,TRUE,1
+Hamburger,1,Burgers -> Beef,,,
+,,,Regular Bun,TRUE,1
+,,,Beef Patty,TRUE,1
+,,,Ketchup,TRUE,1
+,,,Mustard,TRUE,1
+,,,Onion,TRUE,1
+,,,Pickle,TRUE,1
+Cheeseburger,1.5,Burgers -> Beef,,,
+,,,Regular Bun,TRUE,1
+,,,Beef Patty,TRUE,1
+,,,Ketchup,TRUE,1
+,,,Mustard,TRUE,1
+,,,Onion,TRUE,1
+,,,Pickle,TRUE,1
+,,,Cheese,TRUE,1
+Double Cheeseburger,2,Burgers -> Beef,,,
+,,,Regular Bun,TRUE,1
+,,,Beef Patty,TRUE,2
+,,,Ketchup,TRUE,1
+,,,Mustard,TRUE,1
+,,,Onion,TRUE,1
+,,,Pickle,TRUE,1
+,,,Cheese,TRUE,2
+Quarter Pounder,4,Burgers -> Beef,,,
+,,,Seeded Bun,TRUE,1
+,,,Beef Patty,TRUE,1
+,,,Ketchup,TRUE,1
+,,,Mustard,TRUE,1
+,,,Onion,TRUE,1
+,,,Pickle,TRUE,1
+,,,Cheese,TRUE,2
+4 Chicken Nuggets,2.4,Nuggets/Selects -> Nuggets,,,
+,,,Dip,TRUE,1
+6 Chicken Nuggets,2.5,Nuggets/Selects -> Nuggets,,,
+,,,Dip,TRUE,1
+9 Chicken Nuggets,4,Nuggets/Selects -> Nuggets,,,
+,,,Dip,TRUE,2
+20 Chicken Nuggets,6.2,Nuggets/Selects -> Nuggets,,,
+,,,Dip,TRUE,4
+3 Chicken Selects,4.8,Nuggets/Selects -> Selects,,,
+,,,Select Dip,TRUE,1
+5 Chicken Selects,6.2,Nuggets/Selects -> Selects,,,
+,,,Select Dip,TRUE,2
+Chicken Sandwich,4.2,Burgers -> Chicken,,,
+,,,Seeded Bun,TRUE,1
+,,,Chicken Patty,TRUE,1
+,,,Mayo,TRUE,1
+,,,Lettuce,TRUE,1
+Mayo Chicken,1.5,Burgers -> Chicken,,,
+,,,Regular Bun,TRUE,1
+,,,Chicken Patty,TRUE,1
+,,,Mayo,TRUE,1
+,,,Lettuce,TRUE,1
+Mayo Chicken Legend,4.8,Burgers -> Chicken,,,
+,,,Brown Roll,TRUE,1
+,,,Legend Patty,TRUE,1
+,,,Mayo,TRUE,1
+,,,Lettuce,TRUE,1
+BBQ Chicken Legend,4.8,Burgers -> Chicken,,,
+,,,Brown Roll,TRUE,1
+,,,Legend Patty,TRUE,1
+,,,BBQ Sauce,TRUE,1
+,,,Lettuce,TRUE,1
+Hot n Spicy,4.8,Burgers -> Chicken,,,
+,,,Brown Roll,TRUE,1
+,,,Legend Patty,TRUE,1
+,,,Hot n' Spicy,TRUE,1
+,,,Lettuce,TRUE,1
+Mayo Chicken with Bacon,5.2,Burgers -> Chicken,,,
+,,,Regular Bun,TRUE,1
+,,,Chicken Patty,TRUE,1
+,,,Mayo,TRUE,1
+,,,Lettuce,TRUE,1
+,,,Bacon,TRUE,1
+Mayo Chicken Legend with Bacon,5.2,Burgers -> Chicken,,,
+,,,Brown Roll,TRUE,1
+,,,Legend Patty,TRUE,1
+,,,Mayo,TRUE,1
+,,,Lettuce,TRUE,1
+,,,Bacon,TRUE,1
+BBQ Chicken Legend with Bacon,5.2,Burgers -> Chicken,,,
+,,,Brown Roll,TRUE,1
+,,,Legend Patty,TRUE,1
+,,,BBQ Sauce,TRUE,1
+,,,Lettuce,TRUE,1
+,,,Bacon,TRUE,
+Hot n Spicy with Bacon,5.2,Burgers -> Chicken,,,
+,,,Brown Roll,TRUE,1
+,,,Legend Patty,TRUE,1
+,,,Hot n' Spicy,TRUE,1
+,,,Lettuce,TRUE,1
+,,,Bacon,TRUE,1
+Filet O Fish,4.2,Burgers -> Fish,,,
+,,,Regular Bun,TRUE,1
+,,,Fish Patty,TRUE,1
+,,,Tartar Sauce,TRUE,1
+,,,Cheese,TRUE,1
+Vegetable Deluxe,4.2,Vegetarian,,,
+,,,Seeded Bun,TRUE,1
+,,,Veggie Patty,TRUE,1
+,,,Mayo,TRUE,1
+,,,Lettuce,TRUE,1
+Small Fries,2.1,Sides,,,
+Medium Fries,2.7,Sides,,,
+Large Fries,2.9,Sides,,,
+Twisty Fries,2,Sides,,,
+Sweet Chilli Wrap (Crispy),4.2,Wraps -> Crispy,,,
+,,,Tortilla Wrap,TRUE,1
+,,,Chicken Select,TRUE,2
+,,,Sweet Chilli Sauce,TRUE,1
+,,,Mayo,TRUE,1
+,,,Lettuce,TRUE,1
+,,,Cucumber,TRUE,1
+BBQ Wrap (Crispy),4.2,Wraps -> Crispy,,,
+,,,Tortilla Wrap,TRUE,1
+,,,Chicken Select,TRUE,2
+,,,Mayo,TRUE,1
+,,,BBQ Sauce,TRUE,1
+,,,Lettuce,TRUE,1
+,,,Tomato,TRUE,1
+,,,Bacon,TRUE,1
+Garlic Wrap (Crispy),4.2,Wraps -> Crispy,,,
+,,,Tortilla Wrap,TRUE,1
+,,,Chicken Select,TRUE,2
+,,,Garlic Mayo Sauce,TRUE,1
+,,,Lettuce,TRUE,1
+,,,Cucumber,TRUE,1
+,,,Tomato,TRUE,1
+Fajita Wrap (Crispy),4.2,Wraps -> Crispy,,,
+,,,Tortilla Wrap,TRUE,1
+,,,Chicken Select,TRUE,2
+,,,Fajita Sauce,TRUE,1
+,,,Lettuce,TRUE,1
+,,,Onion,TRUE,1
+,,,Cheese,TRUE,1
+Sweet Chilli Wrap (Grilled),4.2,Wraps -> Grilled,,,
+,,,Tortilla Wrap,TRUE,1
+,,,Grilled Chicken,TRUE,2
+,,,Sweet Chilli Sauce,TRUE,1
+,,,Mayo,TRUE,1
+,,,Lettuce,TRUE,1
+,,,Cucumber,TRUE,1
+BBQ Wrap (Grilled),4.2,Wraps -> Grilled,,,
+,,,Tortilla Wrap,TRUE,1
+,,,Grilled Chicken,TRUE,2
+,,,Mayo,TRUE,1
+,,,BBQ Sauce,TRUE,1
+,,,Lettuce,TRUE,1
+,,,Tomato,TRUE,1
+,,,Bacon,TRUE,1
+Garlic Wrap (Grilled),4.2,Wraps -> Grilled,,,
+,,,Tortilla Wrap,TRUE,1
+,,,Grilled Chicken,TRUE,2
+,,,Garlic Mayo Sauce,TRUE,1
+,,,Lettuce,TRUE,1
+,,,Cucumber,TRUE,1
+,,,Tomato,TRUE,1
+Fajita Wrap (Grilled),4.2,Wraps -> Grilled,,,
+,,,Tortilla Wrap,TRUE,1
+,,,Grilled Chicken,TRUE,2
+,,,Fajita Sauce,TRUE,1
+,,,Lettuce,TRUE,1
+,,,Onion,TRUE,1
+,,,Cheese,TRUE,1
+Veggie Wrap,4.2,Vegetarian,,,
+,,,Tortilla Wrap,TRUE,1
+,,,Veggie Patty,TRUE,2
+,,,Relish,TRUE,1
+,,,Onion,TRUE,1
+,,,Tomato,TRUE,1
+4 Veggie Dips,4,Vegetarian,,,
+,,,Dip,TRUE,1
+Small Fanta,2.1,Drinks -> Cold -> Carbonated,,,
+Medium Fanta,2.7,Drinks -> Cold -> Carbonated,,,
+Large Fanta,2.9,Drinks -> Cold -> Carbonated,,,
+,,,,,
+Small Coke Zero,2.1,Drinks -> Cold -> Carbonated,,,
+Medium Coke Zero,2.7,Drinks -> Cold -> Carbonated,,,
+Large Coke Zero,2.9,Drinks -> Cold -> Carbonated,,,
+,,,,,
+Small Diet Coke,2.1,Drinks -> Cold -> Carbonated,,,
+Medium Diet Coke,2.7,Drinks -> Cold -> Carbonated,,,
+Large Diet Coke,2.9,Drinks -> Cold -> Carbonated,,,
+,,,,,
+Small Sprite,2.1,Drinks -> Cold -> Carbonated,,,
+Medium Sprite,2.7,Drinks -> Cold -> Carbonated,,,
+Large Sprite,2.9,Drinks -> Cold -> Carbonated,,,
+,,,,,
+Small Coke,2.2,Drinks -> Cold -> Carbonated,,,
+Medium Coke,2.8,Drinks -> Cold -> Carbonated,,,
+Large Coke,3,Drinks -> Cold -> Carbonated,,,
+,,,,,
+Water,2,Drinks -> Cold -> Bottled,,,
+Orange Juice,2,Drinks -> Cold -> Bottled,,,
+Milk,1.7,Drinks -> Cold -> Bottled,,,
+,,,,,
+Medium Chocolate Milkshake,2.7,Drinks -> Cold -> Milkshakes,,,
+Large Chocolate Milkshake,3,Drinks -> Cold -> Milkshakes,,,
+Medium Strawberry Milkshake,2.7,Drinks -> Cold -> Milkshakes,,,
+Large Strawberry Milkshake,3,Drinks -> Cold -> Milkshakes,,,
+Medium Vanilla Milkshake,2.7,Drinks -> Cold -> Milkshakes,,,
+Large Vanilla Milkshake,3,Drinks -> Cold -> Milkshakes,,,
+,,,,,
+Flat White,2.2,Drinks -> Hot,,,
+Tall Americano,2,Drinks -> Hot,,,
+Tall Cappuccino,2,Drinks -> Hot,,,
+Tall Latte,2,Drinks -> Hot,,,
+,,,,,
+Grande Americano,2.35,Drinks -> Hot,,,
+Grande Cappuccino,2.35,Drinks -> Hot,,,
+Grande Latte,2.35,Drinks -> Hot,,,
+,,,,,
+Oreo McFlurry,2.35,Desserts,,,
+Smarties McFlurry,2.35,Desserts,,,
+Maltesers McFlurry,2.35,Desserts,,,
+,,,,,
+Mini Oreo McFlurry,1.85,Desserts,,,
+Mini Smarties McFlurry,1.85,Desserts,,,
+Mini Maltesers McFlurry,1.85,Desserts,,,

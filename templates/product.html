@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Direkt</title>
+</head>
+<body>
+
+    <h1>{{product.title}}</h1>
+    <div>Price: {{product.base_cost}}</div>
+    <ul>
+        {% for ingredient in product.ingredients.values() %}
+        <li>
+            <h2>{{ ingredient.title }}</h2>
+            <img src="/static/img/ingredients/{{ ingredient.title }}.jpg" alt="{{ ingredient.title }}">
+
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
