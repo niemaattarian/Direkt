@@ -20,3 +20,15 @@ class CopyOnFetchDict(Dict):
                 reduce(lambda o, k: dict.__getitem__(o, k), keys, self)[f.title] = f
 
             nested_set(self, keys)
+
+    def get_item_by_title(self, title):
+
+        # Adapted form https://stackoverflow.com/a/31439438
+        def nested_dict_values(d):
+            for v in d.values():
+                if isinstance(v, dict):
+                    yield from nested_dict_values(v)
+                else:
+                    yield v
+
+        return next(filter(lambda i: i.title == title, nested_dict_values(self.copy())), None)
