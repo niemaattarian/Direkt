@@ -1,19 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Direkt</title>
 </head>
 <body>
 
-    <h1>Home</h1>
-    <ul>
+<ul>
+    {% if path is defined %}
         {% for link in links %}
         <li>
-            <img src="/static/img/ingredients/{{link}}" alt="{{link}}">
-            <a href="/{{link}}"> {{ link }}</a>
+            <a href="?category={{ path }}{{ link }}">{{ link }}</a>
         </li>
         {% endfor %}
-    </ul>
+    {% else %}
+        {% for product in products %}
+        <li>
+
+            <a href="/products/{{product}}">
+                <img src="/static/img/{{product}}.jpg" alt="{{product}}">
+                <span>{{ product }}</span>
+            </a>
+        </li>
+        {% endfor %}
+    {% endif %}
+
+</ul>
 </body>
 </html>

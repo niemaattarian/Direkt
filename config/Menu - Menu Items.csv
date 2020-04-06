@@ -38,17 +38,17 @@ Quarter Pounder,4,Burgers -> Beef,,,
 ,,,Onion,TRUE,1
 ,,,Pickle,TRUE,1
 ,,,Cheese,TRUE,2
-4 Chicken Nuggets,2.4,Nuggets/Selects -> Nuggets,,,
+4 Chicken Nuggets,2.4,Nuggets and Selects -> Nuggets,,,
 ,,,Dip,TRUE,1
-6 Chicken Nuggets,2.5,Nuggets/Selects -> Nuggets,,,
+6 Chicken Nuggets,2.5,Nuggets and Selects -> Nuggets,,,
 ,,,Dip,TRUE,1
-9 Chicken Nuggets,4,Nuggets/Selects -> Nuggets,,,
+9 Chicken Nuggets,4,Nuggets and Selects -> Nuggets,,,
 ,,,Dip,TRUE,2
-20 Chicken Nuggets,6.2,Nuggets/Selects -> Nuggets,,,
+20 Chicken Nuggets,6.2,Nuggets and Selects -> Nuggets,,,
 ,,,Dip,TRUE,4
-3 Chicken Selects,4.8,Nuggets/Selects -> Selects,,,
+3 Chicken Selects,4.8,Nuggets and Selects -> Selects,,,
 ,,,Select Dip,TRUE,1
-5 Chicken Selects,6.2,Nuggets/Selects -> Selects,,,
+5 Chicken Selects,6.2,Nuggets and Selects -> Selects,,,
 ,,,Select Dip,TRUE,2
 Chicken Sandwich,4.2,Burgers -> Chicken,,,
 ,,,Seeded Bun,TRUE,1
