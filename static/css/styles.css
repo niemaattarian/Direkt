@@ -1,0 +1,86 @@
+body{
+    font-style: italic;
+    text-align: center;
+    min-width: 30%;
+}
+/* Styling for the product page */
+/* Headers, Product Lists and Prices */
+h1{
+    font-size: 40px;
+    margin-left: 25px;
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+hr {
+    border: none;
+    background-color: gray;
+    height: 2px;
+}
+
+.price {
+    font-size: 30px;
+    margin-left: 25px;
+}
+
+.ingredients-list{
+    margin-left: 690px;
+}
+
+/* Adding/removing ingredients button */
+.add-ingredients, .remove-ingredients{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.add-ingredients, .quantity, .remove-ingredients{
+    display: inline-block;
+}
+
+.quantity{
+    font-size: 40px;
+    text-align: center;
+}
+
+/* Back to main page button / add to cart button */
+.back-button{
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    width: 200px;
+    border-radius: 5%;
+    position: fixed;
+    margin-left: -750px;
+    margin-top: -120px;
+    cursor: pointer;
+}
+
+.confirm-button{
+    background-color: rgb(5, 150, 0); /* Green */
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    width: 200px;
+    border-radius: 5%;
+    position: fixed;
+    margin-left: 600px;
+    margin-top: -120px;
+    cursor: pointer;
+}

@@ -1,20 +1,31 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <title>Direkt</title>
-</head>
-<body>
-
-    <h1>{{product.title}}</h1>
-    <div>Price: {{product.base_cost}}</div>
-    <ul>
-        {% for ingredient in product.ingredients.values() %}
-        <li>
-            <h2>{{ ingredient.title }}</h2>
-            <img src="/static/img/{{ ingredient.title }}.jpg" alt="{{ ingredient.title }}">
-        </li>
-        {% endfor %}
-    </ul>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+        <title>Direkt</title>
+    </head>
+    <body>
+        <h1 id="product-name">{{product.title}}</h1>
+        <div class="price">Price: {{product.base_cost}}</div>
+        <div>
+            <a href="{{ url_for('home') }}"><button class="back-button">Back</button></a>
+            <button class="confirm-button" onclick="store()" >Confirm</button>
+        </div>
+        <ul class="ingredients-list">
+            {% for ingredient in product.ingredients.values() %}
+            <li>
+                <h2>{{ ingredient.title }}</h2>
+                <img src="/static/img/{{ ingredient.title }}.jpg" alt="{{ ingredient.title }}">
+                <div class="controls">
+                    <button class="add-ingredients">+</button>
+                    <div class="quantity">1</div>
+                    <button class="remove-ingredients">-</button>
+                </div>
+                <hr width="400px" id="hr">
+            </li>
+            {% endfor %}
+        </ul>
+      <script src="{{ url_for('static', filename='javascript/product.js') }}"></script>
+    </body>
 </html>
