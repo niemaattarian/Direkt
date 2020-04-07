@@ -1,10 +1,10 @@
+/* General styling for Headers, Product Lists and Prices */
 body{
     font-style: italic;
     text-align: center;
     min-width: 30%;
 }
-/* Styling for the product page */
-/* Headers, Product Lists and Prices */
+
 h1{
     font-size: 40px;
     margin-left: 25px;
@@ -20,10 +20,16 @@ a:link, a:visited {
     color: black;
 }
 
-hr {
+.separator {
     border: none;
     background-color: gray;
     height: 2px;
+
+}
+
+.gap{
+    padding: 50px;
+    border: none;
 }
 
 .price {
@@ -31,6 +37,7 @@ hr {
     margin-left: 25px;
 }
 
+/* Styling for the product page */
 .ingredients-list{
     margin-left: 690px;
 }
@@ -84,3 +91,33 @@ hr {
     margin-top: -120px;
     cursor: pointer;
 }
+
+/* Styling for the index page */
+.main-options{
+    font-size: 30px;
+}
+
+ul {
+    display: inline-block;
+    float: left;
+    margin-left: 500px;
+}
+
+.order-display {
+    display: inline-block;
+    float: left;
+}
+
+/* Styling for the categories pages */
+.product-image{
+    width: 300px;
+}
+
+.category-options {
+    display: block;
+}
+
+.category-title{
+    font-size: 30px;
+}
+

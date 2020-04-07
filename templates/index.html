@@ -1,30 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Direkt</title>
-</head>
-<body>
+    <head>
+        <meta charset="UTF-8">
+         <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+        <title>Direkt</title>
+    </head>
+    <body>
+        <div class="order-display">
+            <h2>Your order here</h2>
+            <form id="order-output"></form>
+        </div>
 
-<ul>
-    {% if path is defined %}
-        {% for link in links %}
-        <li>
-            <a href="?category={{ path }}{{ link }}">{{ link }}</a>
-        </li>
-        {% endfor %}
-    {% else %}
-        {% for product in products %}
-        <li>
-
-            <a href="/products/{{product}}">
-                <img src="/static/img/{{product}}.jpg" alt="{{product}}">
-                <span>{{ product }}</span>
-            </a>
-        </li>
-        {% endfor %}
-    {% endif %}
-
-</ul>
-</body>
+        <ul>
+            {% if path is defined %}
+                {% for link in links %}
+                <li class="product-list">
+                    <a class="main-options" href="?category={{ path }}{{ link }}">{{ link }}</a>
+                </li>
+                <hr class="separator "width="400px" id="hr">
+                <hr class="gap" width="400px" id="hr">
+                {% endfor %}
+            {% else %}
+                {% for product in products %}
+                <li>
+                    <a class="category-options" href="/products/{{product}}">
+                        <img class="product-image" src="/static/img/{{product}}.jpg" alt="{{product}}">
+                    </a>
+                    <span class="category-title">{{ product }}</span>
+                </li>
+                <hr width="400px" id="hr">
+                {% endfor %}
+            {% endif %}
+        </ul>
+    <script src="{{ url_for('static', filename='javascript/product.js') }}"></script>
+    </body>
 </html>

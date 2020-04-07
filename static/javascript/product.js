@@ -64,6 +64,3 @@ function store() {
 
     alert(product.title + " Added");
 }
-
-//document.getElementById('output').innerHTML = product.title;
-console.log(window.sessionStorage.getItem("cart"));
